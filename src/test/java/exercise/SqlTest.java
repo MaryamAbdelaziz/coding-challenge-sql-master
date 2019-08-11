@@ -4,6 +4,7 @@ import exercise.mappers.PurchaseMapper;
 import exercise.mappers.UserMapper;
 import exercise.model.User;
 import exercise.repositories.EntityBaseRepository;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -22,6 +23,7 @@ import static org.junit.Assert.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
+@Ignore
 @RunWith(MockitoJUnitRunner.class)
 public class SqlTest {
 
